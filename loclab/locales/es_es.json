@@ -1,0 +1,6 @@
+{
+  "welcome_message": "¡Bienvenido de nuevo, {userName}! Tienes {count} notificaciones sin leer.",
+  "cta_button": "Ver panel de control",
+  "error_timeout": "Tiempo de espera agotado. Por favor, inténtelo de nuevo más tarde.",
+  "new_feature_alert": "[MT_TRANSLATION] Check out our new AI automated continuous translation engine features!"
+}

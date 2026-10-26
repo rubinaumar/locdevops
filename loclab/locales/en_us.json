@@ -1,0 +1,6 @@
+{
+  "welcome_message": "Welcome back, {userName}! You have {count} unread notifications.",
+  "cta_button": "View Dashboard",
+  "error_timeout": "Connection timed out. Please try again later.",
+  "new_feature_alert": "Check out our new AI automated continuous translation engine features!"
+}
