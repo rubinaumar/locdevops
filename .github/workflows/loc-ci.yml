@@ -14,16 +14,21 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
+    # Configures the server to use Python execution parameters
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
+    # Changes directory into loclab before installing modules
     - name: Install System Dependencies
       run: |
+        cd loclab
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+    # Changes directory into loclab before executing your parser
     - name: Execute Quality Gate and Translation Pipeline
       run: |
+        cd loclab
         python src/parser.py
